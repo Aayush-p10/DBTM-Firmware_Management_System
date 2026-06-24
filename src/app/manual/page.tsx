@@ -36,11 +36,11 @@ export default function ManualPage() {
   const manualSections: Record<string, { title: string; subtitle?: string; content: React.ReactNode }> = {
     "1": {
       title: "1. Overview",
-      subtitle: "Introduction to DBTM Firmware Management",
+      subtitle: "Introduction to Powered Sports Tech Firmware Management",
       content: (
         <div className="space-y-4">
           <p className="leading-relaxed">
-            The DBTM Firmware Management Module is designed to allow administrators and developers to safely upgrade, manage, and verify firmware updates across all deployed DBTM telemetry units.
+            The Powered Sports Tech Firmware Management module is designed to allow administrators and developers to safely upgrade, manage, and verify firmware updates across all deployed DBTM telemetry units.
           </p>
           <p className="leading-relaxed">
             This documentation provides a comprehensive guide to completing upgrades, rolling back in case of system bugs, and general hardware troubleshooting parameters.
@@ -101,53 +101,59 @@ export default function ManualPage() {
       subtitle: "Follow the steps below to upload firmware to the DBTM device.",
       content: (
         <div className="space-y-6">
-          <div className="relative border-l-2 border-slate-100 ml-4 pl-8 space-y-6">
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+          <div className="space-y-4">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 1
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Connect the DBTM device</h4>
-              <p className="text-xs text-slate-500 mt-1">Connect the DBTM device to your computer using a USB cable.</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Connect the DBTM device to your computer using USB cable.
+              </p>
             </div>
             
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 2
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Power on the device</h4>
-              <p className="text-xs text-slate-500 mt-1">Ensure the power switch is in the 'ON' position and wait for the power LED indicator.</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Power on the device.
+              </p>
             </div>
 
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 3
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Open DBTM configuration tool</h4>
-              <p className="text-xs text-slate-500 mt-1">Launch the desktop configuration tool. It will automatically detect the COM port.</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Open the DBTM configuration tool.
+              </p>
             </div>
 
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 4
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Go to "Firmware Upload" section</h4>
-              <p className="text-xs text-slate-500 mt-1">Navigate to the main firmware programming tab in the sidebar menu.</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Go to the "Firmware Upload" section.
+              </p>
             </div>
 
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 5
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Select firmware and flash</h4>
-              <p className="text-xs text-slate-500 mt-1">Select the firmware file (.bin) and click on "Upload Firmware".</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Select the firmware file (.bin) and click on "Upload Firmware".
+              </p>
             </div>
 
-            <div className="relative">
-              <span className="absolute -left-12 top-0 flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shadow-sm">
+            <div className="flex items-center gap-4">
+              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
                 6
               </span>
-              <h4 className="text-sm font-bold text-slate-900">Wait for upload to complete</h4>
-              <p className="text-xs text-slate-500 mt-1">Wait for the progress bar to reach 100%. The device will automatically restart.</p>
+              <p className="text-sm text-slate-800 font-medium">
+                Wait for the upload to complete and the device to restart.
+              </p>
             </div>
           </div>
 
@@ -155,7 +161,6 @@ export default function ManualPage() {
           <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 flex gap-3 text-blue-900 mt-4 shadow-sm">
             <Info className="w-5 h-5 text-brand-blue shrink-0 mt-0.5" />
             <div className="text-xs leading-relaxed">
-              <strong className="font-bold text-slate-900 block mb-0.5">Important Flash Security Guidelines</strong>
               Do not disconnect the device or power off during the upload process. Once completed, verify the firmware version in the device info section.
             </div>
           </div>
@@ -260,11 +265,11 @@ export default function ManualPage() {
   // Build text to download full manual
   const downloadFullManual = () => {
     let text = "==================================================\n";
-    text += "       DBTM DEVICE FIRMWARE MANUAL AND PROCEDURE\n";
+    text += "   POWERED SPORTS TECH FIRMWARE MANUAL & PROCEDURE\n";
     text += "==================================================\n\n";
 
     text += "1. OVERVIEW\n";
-    text += "The DBTM Firmware Management Module allows administrators to upgrade firmware\n";
+    text += "The Powered Sports Tech Firmware Management module allows administrators to upgrade firmware\n";
     text += "across telemetry devices using USB CDC. Compatible models: DBTM-v3, DBTM-v4.\n\n";
 
     text += "2. FIRMWARE UPLOAD TO DEVICE\n";

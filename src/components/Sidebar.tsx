@@ -33,10 +33,14 @@ export default function Sidebar() {
   return (
     <aside className="w-64 bg-sidebar-bg text-white flex flex-col h-screen fixed left-0 top-0 border-r border-[#1a2e4c] z-20">
       {/* Brand Header */}
-      <div className="p-6 text-center border-b border-[#1a2e4c]">
-        <h1 className="text-2xl font-bold tracking-wider text-white">DBTM</h1>
-        <p className="text-xs text-slate-400 mt-1 font-medium leading-relaxed">
-          Firmware Management<br />Module
+      <div className="p-6 text-center border-b border-[#1a2e4c] flex flex-col items-center justify-center">
+        <img
+          src="/logo.png"
+          alt="Powered Sports Tech Logo"
+          className="w-full max-w-[200px] h-auto object-contain"
+        />
+        <p className="text-xs text-slate-400 mt-3 font-medium leading-relaxed">
+          Firmware Management
         </p>
       </div>
 
@@ -65,8 +69,8 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="p-6 text-center border-t border-[#1a2e4c]">
-        <p className="text-xs text-slate-500 font-medium">
-          &copy; 2026 DBTM.<br />All rights reserved.
+        <p className="text-xs text-slate-500 font-medium leading-relaxed">
+          &copy; 2026 POWERED SPORTS TECH.<br />All Rights Reserved.
         </p>
       </div>
     </aside>

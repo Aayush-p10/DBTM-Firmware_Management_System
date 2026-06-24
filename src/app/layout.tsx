@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DBTM Firmware Management System",
+  title: "Powered Sports Tech Firmware Management System",
   description: "Upload and manage firmware versions, test statuses, and view device manuals.",
 };
 
