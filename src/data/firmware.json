@@ -27,7 +27,7 @@
     "version": "V1.0",
     "comments": "Initial stable release",
     "testStatus": "Tested",
-    "testComments": "Minor issues observed.",
+    "testComments": "FAILED!!! Major issues observed.",
     "fileName": "dbtm_firmware_v1.0.bin",
     "fileSize": "2.42 MB",
     "isLatest": false

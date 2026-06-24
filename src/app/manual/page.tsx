@@ -101,57 +101,74 @@ export default function ManualPage() {
       subtitle: "Follow the steps below to upload firmware to the DBTM device.",
       content: (
         <div className="space-y-6">
-          <div className="space-y-4">
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                1
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+          <div className="space-y-6">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  1
+                </span>
+                <div className="absolute top-4 bottom-[-40px] w-0.5 bg-slate-200 z-0"></div>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Connect the DBTM device to your computer using USB cable.
               </p>
             </div>
             
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                2
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  2
+                </span>
+                <div className="absolute top-4 bottom-[-40px] w-0.5 bg-slate-200 z-0"></div>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Power on the device.
               </p>
             </div>
 
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                3
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  3
+                </span>
+                <div className="absolute top-4 bottom-[-40px] w-0.5 bg-slate-200 z-0"></div>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Open the DBTM configuration tool.
               </p>
             </div>
 
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                4
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  4
+                </span>
+                <div className="absolute top-4 bottom-[-40px] w-0.5 bg-slate-200 z-0"></div>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Go to the "Firmware Upload" section.
               </p>
             </div>
 
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                5
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  5
+                </span>
+                <div className="absolute top-4 bottom-[-40px] w-0.5 bg-slate-200 z-0"></div>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Select the firmware file (.bin) and click on "Upload Firmware".
               </p>
             </div>
 
-            <div className="flex items-center gap-4">
-              <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs shrink-0 shadow-sm">
-                6
-              </span>
-              <p className="text-sm text-slate-800 font-medium">
+            <div className="flex items-start gap-4 relative">
+              <div className="flex flex-col items-center shrink-0 relative">
+                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-blue text-white font-bold text-xs z-10 shadow-sm">
+                  6
+                </span>
+              </div>
+              <p className="text-sm text-slate-800 font-medium pt-1.5">
                 Wait for the upload to complete and the device to restart.
               </p>
             </div>

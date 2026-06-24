@@ -39,8 +39,8 @@ export default function Sidebar() {
           alt="Powered Sports Tech Logo"
           className="w-full max-w-[200px] h-auto object-contain"
         />
-        <p className="text-xs text-slate-400 mt-3 font-medium leading-relaxed">
-          Firmware Management
+        <p className="text-sm text-slate-400 mt-2 font-medium leading-relaxed">
+          Firmware Management System
         </p>
       </div>
 
