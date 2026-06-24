@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "date": "20 May 2024, 10:30 AM",
+    "version": "V1.2",
+    "comments": "Added Bluetooth connectivity support and improved battery management.",
+    "testStatus": "Yet to test",
+    "testComments": "-",
+    "fileName": "dbtm_firmware_v1.2.bin",
+    "fileSize": "2.48 MB",
+    "isLatest": true
+  },
+  {
+    "id": "2",
+    "date": "15 May 2024, 04:15 PM",
+    "version": "V1.1",
+    "comments": "Added OTA update support, improved stability and performance.",
+    "testStatus": "Tested",
+    "testComments": "All test cases passed.",
+    "fileName": "dbtm_firmware_v1.1.bin",
+    "fileSize": "2.45 MB",
+    "isLatest": false
+  },
+  {
+    "id": "3",
+    "date": "10 May 2024, 09:05 AM",
+    "version": "V1.0",
+    "comments": "Initial stable release",
+    "testStatus": "Tested",
+    "testComments": "Minor issues observed.",
+    "fileName": "dbtm_firmware_v1.0.bin",
+    "fileSize": "2.42 MB",
+    "isLatest": false
+  },
+  {
+    "id": "4",
+    "date": "05 May 2024, 11:20 AM",
+    "version": "V0.9",
+    "comments": "Bug fixes and enhancements",
+    "testStatus": "Tested",
+    "testComments": "Working as expected.",
+    "fileName": "dbtm_firmware_v0.9.bin",
+    "fileSize": "2.35 MB",
+    "isLatest": false
+  },
+  {
+    "id": "5",
+    "date": "01 May 2024, 03:40 PM",
+    "version": "V0.8",
+    "comments": "Performance improvements",
+    "testStatus": "Yet to test",
+    "testComments": "-",
+    "fileName": "dbtm_firmware_v0.8.bin",
+    "fileSize": "2.28 MB",
+    "isLatest": false
+  },
+  {
+    "id": "6",
+    "date": "28 Apr 2024, 02:18 PM",
+    "version": "V0.7",
+    "comments": "Beta release",
+    "testStatus": "Yet to test",
+    "testComments": "-",
+    "fileName": "dbtm_firmware_v0.7.bin",
+    "fileSize": "2.20 MB",
+    "isLatest": false
+  }
+]
